@@ -1,0 +1,72 @@
+
+
+.contactHero {
+      background-image:  linear-gradient(to left, rgba(0, 108, 0, 0.5) , rgba(0, 108, 0, 0.5)), url("/m8.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+}
+
+.contactHero h1 {
+      font-size: 2.8rem;
+      color: white;
+      text-align: right;
+      line-height: 4rem;
+      padding: 10rem 5rem 0 0;
+}
+
+.contactHeading {
+      width: 100%;
+      height: 4rem;
+      background-color: rgba(178, 178, 178, .6);
+      padding: 1rem 0 1rem 10rem;
+}
+
+.contactHeading h2 {
+      color: rgb(23, 56, 41);
+}
+
+.contactHeading h2  span {
+      display: inline-block;
+      border-left: 2px solid green;
+      padding-left: 1rem;
+}
+.contactSection {
+      margin:5rem 10rem;
+}
+
+
+.container1 {
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+}
+
+.container1 input {
+      width: 35rem;
+      border: 2px solid green;
+      padding: 1rem;
+}
+
+.textarea {
+      margin-bottom: 2rem;
+}
+.textarea textarea {
+      width: 100%;
+      height: 15rem;;
+      border: 2px solid green;
+      padding: 1rem;
+}
+
+.button {
+      border: none;
+      padding: 1rem 4rem;
+      background-color: green;
+      color: white;
+      border-radius: .5rem .2rem;
+      font-weight: bold;
+      letter-spacing: .3rem;
+}

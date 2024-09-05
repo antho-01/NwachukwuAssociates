@@ -1,0 +1,16 @@
+
+.redirect {
+      background: rgba(118, 117, 117, .3);
+      padding: 1.5rem 5rem;
+      text-align: left;
+}
+
+.redirect a {
+      text-decoration: none;
+      color: rgb(4, 78, 11);
+}
+
+.link {
+      margin-right: 2rem;
+      border-bottom: 2px solid green;
+}

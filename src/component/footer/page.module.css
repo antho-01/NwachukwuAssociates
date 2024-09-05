@@ -1,0 +1,78 @@
+.footer {
+      background: #1e2f1e;
+      padding: 4rem 2rem 0 2rem;
+      color: white;
+}
+
+.footer1 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15rem;
+      justify-content: center;
+}
+
+
+.about {
+      width: 36rem;
+      height: auto;
+}
+
+.about h2 {
+      margin: .8rem 0;
+}
+
+.footerAbout {
+      font-size: 1rem;
+      text-decoration: none;
+      font-weight: none;
+      font-family: sans-serif;
+}
+
+.about a {
+      text-decoration: none;
+      color: white;
+}
+
+.learn , .contact {
+      margin-top: .7rem;
+      text-decoration: none;
+      color: white;
+      
+}
+
+.learn span , .contact span {
+      border-bottom: .2px solid gray;
+      display: inline-block;
+
+}
+
+.trend a {
+      text-decoration: none;
+      color: white;
+}
+
+.trend p {
+      margin-top: .7rem;
+}
+
+.trend p span {
+      border-bottom: .2px solid gray;
+      display: inline-block;
+}
+
+.socials a {
+      text-decoration: none;
+      color: white;
+}
+
+.socials .icon {
+      font-size: 1.65rem;
+      margin: .7rem 0rem;
+}
+
+
+.copy {
+      text-align: center;
+      margin-top: 6rem;
+      padding: 1rem;
+}
