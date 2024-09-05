@@ -9,13 +9,13 @@
 
 
       margin: 1rem 10rem 5rem 10rem;
-      font-size: 1.2rem;
+      font-size: .85rem;
 }
 
 .Cname{
       margin-bottom: 1rem;
       font-weight: bold;
-      font-size: 1.4rem;
+      font-size: 1.1rem;
       border-left: .3px solid green;
       padding-left: .5rem;
 }
