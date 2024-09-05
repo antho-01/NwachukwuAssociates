@@ -6,13 +6,13 @@
       padding: .5rem 0;
       height: auto;
       flex-wrap: wrap;
-      gap: 4rem;
+      gap: 5rem;
 }
 
 .imgCon {
       position: relative;
-      width: 25rem;
-      height: 17rem;
+      width: 24rem;
+      height: 16rem;
 
 }
 
@@ -24,16 +24,16 @@
 }
 
 .feeds {
-      width: 23rem;
+      width: 22rem;
 }
 
 .feeds h2 {
-      font-size: 2.5rem;
+      font-size: 2.4rem;
       margin-bottom: 1rem;
 }
 
 .feeds p {
-      font-size: .85rem;
+      font-size: .8rem;
 }
 
 .home {
