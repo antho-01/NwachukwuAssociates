@@ -4,21 +4,21 @@
       flex-wrap: wrap;
       height: auto;
       padding: 0.5rem;
-      gap: 1.5rem;
+      gap: 1.1rem;
 }
 
 .container {
       border: .1px solid rgba(38, 83, 29, 0.3);
       background: white;
-      width: 40rem;
+      width: 30rem;
       border-top-right-radius: 1rem;
 
 }
 
 .imgContainer {
       position: relative;
-      width: 60rem;
-      height: 13rem;
+      width: 40rem;
+      height: 8rem;
 
 }
 
@@ -29,22 +29,22 @@
 }
 
 .subContainer {
-      padding: 1rem;
+      padding: .8rem;
 }
 .propertyType {
-      margin-bottom: 1rem;
+      margin-bottom: .8rem;
       font-weight: bold;
-      font-size: 1.4rem;
+      font-size: 1.1rem;
 }
 .imageDes {
       display: flex;
-      gap: 1rem;
+      gap: .8rem;
 }
 
 .items {
       display: flex;
-      gap: 1rem;
-      margin-top: 1.5rem;
+      gap: .8rem;
+      margin-top: 1.1rem;
       background: rgba(21, 54, 21, 0.772);
       color: rgb(182, 219, 157);
 }
@@ -52,7 +52,7 @@
 .des {
       display: flex;
       align-items: center;
-      padding: .5rem;
+      padding: .4rem;
      
 }
 
@@ -60,18 +60,19 @@
 .des:not(last-child) {   
       border-left: .1px solid rgba(9, 50, 8, 0.834);
 }
+
 .subTitle {
       font-weight: bold;
-      font-size: 1.1rem;
+      font-size: .9rem;
       margin-bottom: .5rem;
       color: rgba(8, 41, 1, 0.702)
 }
 
 .price {
-      font-size: 1.7rem;
-      margin: .5rem 0;
+      font-size: 1.2rem;
+      margin: .3rem 0;
       border-top: .1px solid rgba(2, 67, 9, 0.809);
-      padding-top: .3rem;
+      padding-top: .2rem;
       display: flex;
       align-items: center;
 }
