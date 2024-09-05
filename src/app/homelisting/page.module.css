@@ -10,7 +10,7 @@
 .container {
       border: .1px solid rgba(38, 83, 29, 0.3);
       background: white;
-      width: 25rem;
+      width: 23.5rem;
       border-top-right-radius: 1rem;
 
 }
@@ -70,16 +70,16 @@
 
 .subTitle {
       font-weight: bold;
-      font-size: .5rem;
+      font-size: .8rem;
       margin-bottom: .5rem;
       color: rgba(8, 41, 1, 0.702)
 }
 
 .price {
       font-size: 1rem;
-      margin: .3rem 0;
+      margin: .5rem 0;
       border-top: .1px solid rgba(2, 67, 9, 0.809);
-      padding-top: .2rem;
+      padding-top: .3rem;
       display: flex;
       align-items: center;
 }
