@@ -3,7 +3,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 5rem 10rem;
+      padding: .5rem 0;
       height: auto;
       flex-wrap: wrap;
       gap: 4rem;
@@ -12,7 +12,7 @@
 .imgCon {
       position: relative;
       width: 25rem;
-      height: 20rem;
+      height: 18.5rem;
 
 }
 
@@ -33,7 +33,7 @@
 }
 
 .feeds p {
-      font-size: .9rem;
+      font-size: .85rem;
 }
 
 .home {
