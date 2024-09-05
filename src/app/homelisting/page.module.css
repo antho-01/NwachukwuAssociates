@@ -10,9 +10,13 @@
 .container {
       border: .1px solid rgba(38, 83, 29, 0.3);
       background: white;
-      width: 30rem;
+      width: 25rem;
       border-top-right-radius: 1rem;
 
+}
+
+.description {
+      font-size: .7rem;
 }
 
 .imgContainer {
@@ -31,10 +35,12 @@
 .subContainer {
       padding: .8rem;
 }
+
+
 .propertyType {
       margin-bottom: .8rem;
       font-weight: bold;
-      font-size: 1.1rem;
+      font-size: .9rem;
 }
 .imageDes {
       display: flex;
@@ -53,6 +59,7 @@
       display: flex;
       align-items: center;
       padding: .4rem;
+      font-size: .6rem;
      
 }
 
@@ -63,13 +70,13 @@
 
 .subTitle {
       font-weight: bold;
-      font-size: .9rem;
+      font-size: .5rem;
       margin-bottom: .5rem;
       color: rgba(8, 41, 1, 0.702)
 }
 
 .price {
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin: .3rem 0;
       border-top: .1px solid rgba(2, 67, 9, 0.809);
       padding-top: .2rem;
