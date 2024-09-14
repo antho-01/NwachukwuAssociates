@@ -7,7 +7,7 @@ export default function Aos(){
   useEffect(() => {
     AOS.init({
    
-         once: true,
+         once: false,
          easing:'ease-in',
          
        })

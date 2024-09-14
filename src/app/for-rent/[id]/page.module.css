@@ -1,0 +1,188 @@
+.container {
+      background: white;
+}
+
+.subTitle {
+      width: 100%;
+      height: auto;
+      color: rgb(1, 31, 1);
+      background: #ccc;
+      padding: 1rem 9rem;
+
+}
+
+
+.listContainer {
+      width: 70%;
+      margin: auto;
+}
+
+.backPage {
+      width: auto;
+      background: #ccc;
+      margin: 2rem 0; 
+      padding: 1rem;
+
+}
+
+.descriptionList {
+      background: white;
+      display: flex;
+      justify-content: space-between;
+}
+
+.location {
+      font-size: 1.2rem;
+
+}
+
+.locationNIcon {
+      display: flex;
+      align-items: center;
+}
+
+.descriptionListSection1 {
+      line-height: 2.5rem;
+}
+
+.propertyType {
+      font-size: 1.3rem;
+      font-weight: bold;
+
+}
+
+.price {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: green;
+}
+
+.pNCurrencyHolder {
+      display: flex;
+      align-items: center;
+}
+
+.imgContainer {
+      position: relative;
+      width: 100%;
+      height: 30rem;
+
+
+}
+
+.imgContainer img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+}
+
+.content {
+      display: flex;
+      background: #304234;
+      color: white;
+      margin-bottom: 1.4rem;
+}
+
+.des {
+      display: flex;
+      align-items: center;
+      padding: .8rem;
+      font-size: 1rem;
+     
+}
+
+
+.des:not(last-child) {   
+      border-left: .1px solid rgba(9, 50, 8, 0.834);
+}
+
+.propertyInterest {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding: 3rem;
+      background: #ccc;
+}
+
+.propertyInterest p {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+}
+
+.contactInfo span {
+      display: inline-block;
+}
+
+.call {
+      font-weight: bold;
+      font-size: 1.5rem;
+     
+
+}
+
+.number {
+      font-weight: bold;
+      font-size: 1.4rem;
+      margin: 0 1rem;
+
+
+}
+
+.showButton {
+      padding: .5rem;
+      color: white;
+      background: green;
+      cursor: pointer;
+}
+
+
+.detailsContainer {
+      border: .2px solid #ccc;
+}
+
+.detailsDescription {
+      border: .2px solid #ccc;
+      width: auto;
+      height: auto;
+      margin-top: 1rem;
+      
+}
+.detailsDescription span {
+      border: .2px solid #ccc;
+      display: inline-block;
+      padding: .8rem;
+      color: green;
+      font-size: 1.5rem;
+      font-weight: bold;
+
+}
+.featuredContent {
+      line-height: 2.5rem;
+      color: #2a4a33;
+      font-size: 1.1rem;
+      padding: 1rem;
+}
+
+
+.propertyDescription, .propertyDetails {
+      font-size: 1.8rem;
+      margin: 1rem;
+
+}
+
+.update {
+      width: auto;
+      display: flex;
+      flex-wrap: wrap;
+      border: .2px solid gray;
+      gap: 0;
+      margin-top: 1.5rem;
+}
+
+.update p {
+      border: .2px solid #ccc;
+      padding: 1rem;
+      width: auto;
+      color: #2a4a33;
+      font-size: 1.1rem;
+}

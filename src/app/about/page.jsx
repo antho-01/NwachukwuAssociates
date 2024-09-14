@@ -1,4 +1,4 @@
-
+"use client"
 import styles from "@/app/about/page.module.css"
 import AboutComponent from "@/component/aboutComponent/page"
 import Direction from "@/component/redirect/page";

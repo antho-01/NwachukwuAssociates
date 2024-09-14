@@ -13,8 +13,8 @@
 
 .imgCon {
       position: relative;
-      width: 24rem;
-      height: 16rem;
+      width: 42rem;
+      height: 28rem;
 
 }
 
@@ -26,16 +26,16 @@
 }
 
 .feeds {
-      width: 22rem;
+      width: 30rem;
 }
 
 .feeds h2 {
-      font-size: 2.4rem;
+      font-size: 3rem;
       margin-bottom: 1rem;
 }
 
 .feeds p {
-      font-size: .8rem;
+      font-size: 1.3rem;
 }
 
 .home {

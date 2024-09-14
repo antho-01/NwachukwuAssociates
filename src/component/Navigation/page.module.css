@@ -8,13 +8,13 @@
       position: sticky;
       left: 0;
       top: 0;
-      z-index: 1;
+      z-index: 5;
 }
 
 .logo {
       position: relative;
-      width: 8rem;
-      height: 2rem;
+      width: 13.5rem;
+      height: 4rem;
       
 }
 
@@ -33,14 +33,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 3rem;
+      gap: 4rem;
       text-transform: uppercase;
       
 }
 
 
 .items {
-      font-size: .7rem;
+      font-size: 1rem;
 }
 
 

@@ -15,13 +15,16 @@ const Listing = () => {
       const list = [
             {
                   id: "list1",
-                  location: "Orchid Lekki, lagos ",
-                  price: "120,000,000",
-                  bedrooms: 5,
-                  image: '/m8.jpeg',
-                  description: 'Contemporary 5 Bedrooms Fully Detached Duplex with Swimming Pool and a BQ in a Secured Estate.',
-                  propertyType: 'Contemporary 5 Bedrooms Fully Detached Duplex',
-                  subTitle: " 5 bedroom deplex for sale",
+                  location: "Lekki County, lagos ",
+                  price: "120,000,000M",
+                  bedrooms: 4,
+                  bathroom: 4,
+                  parking: 4,
+                  toilet: 5,
+                  image: '/p1a.jpg',
+                  description: 'Spacious 4 Bedroom Semidetached Duplex with BQ.',
+                  propertyType: '4 Bedroom Semidetached Duplex',
+                  subTitle: " 4 Bedroom Duplex",
                   
            
             },
@@ -29,36 +32,45 @@ const Listing = () => {
             {
                   id: "list2",
                   location: "Orchid Lekki, lagos ",
-                  price: "120,000,000",
+                  price: "280,000,000M",
                   bedrooms: 5,
-                  image: '/m2.jpeg',
-                  description: 'Contemporary 5 Bedrooms Fully DetachedDuplex Duplex with Swimming Pool and a BQ in a Secured Estate.',
-                  propertyType: 'Contemporary 5 Bedrooms Fully Detached ',
-                  subTitle: "4 bedroom derace for sale",
+                  bathroom: 5,
+                  parking: 4,
+                  toilet: 5,
+                  image: '/p2b.jpg',
+                  description: '5 BEDROOM FULLY DETACHED DUPLEX WITH BQ and SWIMMING POOL',
+                  propertyType: '5 Bedrooms Fully Detached ',
+                  subTitle: "5 bedroom Duplex for sale",
                   
             },
 
             {
                   id: "list3",
                   location: "Orchid Lekki, lagos ",
-                  price: "120,000,000",
-                  bedrooms: 5,
-                  image: '/m5.jpeg',
-                  description: 'Contemporary 5 Bedrooms Fully DetachedDuplex Duplex with Swimming Pool and a BQ in a Secured Estate.',
-                  propertyType: 'Contemporary 5 Bedrooms Fully Detached ',
-                  subTitle: "4 bedroom derace for sale",
+                  price: "120,000,000M",
+                  bedrooms: 4,
+                  bathroom: 4,
+                  parking: 4,
+                  toilet: 5,
+                  image: '/p3a.jpg',
+                  description: 'Well Finished 4 Bedrooms Semi-detached Duplex with BQ',
+                  propertyType: ' 4 Bedrooms semi-Detached ',
+                  subTitle: "4 bedroom duplex for sale",
                   
             },
 
             {
                   id: "list4",
-                  location: "Orchid Lekki, lagos ",
-                  price: "120,000,000",
+                  location: "Osapa London ",
+                  price: "350,000,000M",
                   bedrooms: 5,
-                  image: '/m5.jpeg',
-                  description: 'Contemporary 5 Bedrooms Fully DetachedDuplex Duplex with Swimming Pool and a BQ in a Secured Estate.',
+                  bathroom: 5,
+                  parking: 4,
+                  toilet: 5,
+                  image: '/p4a.jpg',
+                  description: 'Contemporary 5 Bedroom Fully Detached Duplex with Swimming Pool, Private Cinema and BQ in a secured estate.',
                   propertyType: 'Contemporary 5 Bedrooms Fully Detached ',
-                  subTitle: "4 bedroom derace for sale",
+                  subTitle: "5 bedroom duplex for sale",
                   
             },
       ]
@@ -75,7 +87,7 @@ const Listing = () => {
                                           <div className={styles.imageDes}>
                                                 
                                                 <div className={styles.imgContainer}>
-                                    <Link href="/"> <Image src={list.image} layout="fill" alt="House"/></Link>
+                                                      <Link href={`/homelisting/${list.id}`}> <Image src={list.image} layout="fill" alt="House"/></Link>
                                                 </div>
                                                 
                                                 <div>  
@@ -88,9 +100,9 @@ const Listing = () => {
             
                                     <div className={styles.items}> 
                                           <div className={styles.des}> <span className={styles.icon}><IoBedOutline/></span> &nbsp; <span>Bedrooms: {list.bedrooms}</span></div>
-                                          <div className={styles.des}> <span className={styles.icon}><PiBathtubLight/></span> &nbsp; <span>Bathrooms: {list.bathrooms}</span></div>
-                                          <div className={styles.des}> <span className={styles.icon}><LiaToiletSolid/></span> &nbsp; <span>Toilet: {list.toilets}</span></div>
-                                          <div className={styles.des}> <span className={styles.icon}><IoCarSportOutline/></span> &nbsp; <span>Parking space{list.parkingSpace}</span></div>
+                                          <div className={styles.des}> <span className={styles.icon}><PiBathtubLight/></span> &nbsp; <span>Bathrooms: {list.bathroom}</span></div>
+                                          <div className={styles.des}> <span className={styles.icon}><LiaToiletSolid/></span> &nbsp; <span>Toilet: {list.toilet}</span></div>
+                                          <div className={styles.des}> <span className={styles.icon}><IoCarSportOutline/></span> &nbsp; <span>Parking space{list.parking}</span></div>
                                     </div>
                               </div>
             

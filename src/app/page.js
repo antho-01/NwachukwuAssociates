@@ -4,6 +4,7 @@ import Listing from "@/app/homelisting/page"
 import AboutComponent from "@/component/aboutComponent/page"
 import Hero from "@/component/hero/page"
 import Feeds from "@/component/feed/page"
+import App from "@/component/redirect/page"
 
  const Home = () => {
     
@@ -12,7 +13,7 @@ import Feeds from "@/component/feed/page"
       
       <Hero/>
       <div className={styles.textholder}>
-         <h2 className={styles.h2}> Our Property Listing </h2>
+         <h2 className={styles.h2} data-aos="fade-down"> Our Property Listing </h2>
          <span class={styles.line}> </span>
       </div>
       <Listing/>

@@ -1,4 +1,4 @@
-
+"use client"
 import styles from "@/app/contact/page.module.css";
 import Direction from "@/component/redirect/page";
 
